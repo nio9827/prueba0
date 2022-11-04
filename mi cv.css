@@ -1,22 +1,57 @@
 /*Inicio del div1*/
 #div1{
     background-color: gray;
-    height: 648px;
-    width: 1240px;
+    height: 700px;
+    width: 1377px;
 }
 /*Fin del Div1*/
 
 /*Inicio del Div2*/
 #div2{
     background-image: url(hieva.jpg);
-    height: 648px;
+    height: 700px;
 }
 /*Fin del Div2*/
 
+
+/*borde superior*/
 #madera-top{
     background-image: url(madera1.PNG);
     background-repeat: no-repeat;
-    width: 1240px;
+    background-size: 1377px;
+    border-bottom: rgb(89, 51, 6) 3px solid ;
+    width: 1377px;
     height: 35px;
     position: absolute;
 }
+/*Fin del borde superior*/
+
+/*borde inferior*/
+#madera-botton{
+    background-image: url(madera2.PNG);
+    background-repeat: no-repeat;
+    background-size: 1377px;
+    border-top: rgb(89, 51, 6) 3px solid ;
+    width: 1377px;
+    height: 35px;
+    position: fixed;
+    bottom: 0;
+}
+/*fin del borde inferior*/
+
+/*inicio div mesa*/
+#mesa{
+    background-image: url(mader2.2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 620px;
+    width: 1200px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    border-radius: 20px;
+    border: rgb(89, 51, 6) 3px solid;
+}
+/*fin de mesa*/
+
