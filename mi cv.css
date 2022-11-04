@@ -1,0 +1,22 @@
+/*Inicio del div1*/
+#div1{
+    background-color: gray;
+    height: 648px;
+    width: 1240px;
+}
+/*Fin del Div1*/
+
+/*Inicio del Div2*/
+#div2{
+    background-image: url(hieva.jpg);
+    height: 648px;
+}
+/*Fin del Div2*/
+
+#madera-top{
+    background-image: url(madera1.PNG);
+    background-repeat: no-repeat;
+    width: 1240px;
+    height: 35px;
+    position: absolute;
+}
