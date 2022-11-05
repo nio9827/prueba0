@@ -125,11 +125,12 @@
 }
 /*fin de paginas*/
 
-#lineas{
+/*contenedor de las lineas*/
+#cont-lineas{
     background-color: transparent;
     height: 550px;
     width: 480px;
-    position: relative;
+    position: absolute;
     top: -16px;
 }
 
@@ -140,4 +141,57 @@
     width: 480px;
     right: 10px;
     box-shadow: 0px 0px 2px;
+}
+/*fin del contenerdor*/
+
+#CV{
+    background-color: rgb(45, 233, 92);
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: -14px;
+    left: 30px;
+    box-shadow: 0px 0px 2px;
+}
+#cv{
+    font-size: 20px;
+    font-family: serif;
+    text-align: center;
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+
+#Habilidades{
+    background-color: rgb(233, 230, 45);
+    height: 30px;
+    width: 140px;
+    position: absolute;
+    top: -14px;
+    left: 135px;
+    box-shadow: 0px 0px 2px;
+    rotate: 2deg;
+    
+}
+#Hab{
+    font-size: 20px;
+    font-family: Courier;
+    text-align: center;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+}
+
+#Proyectos{
+    background-color: rgb(233, 67, 45);
+    height: 30px;
+    width: 140px;
+    position: absolute;
+    top: -14px;
+    left: 280px;
+    box-shadow: 0px 0px 2px;
+    rotate: 1deg;
+}
+
+#pro{
+    font-size: 20px;
+    font-family: Courier;
+    text-align: center;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
 }
