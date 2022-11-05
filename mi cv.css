@@ -144,6 +144,7 @@
 }
 /*fin del contenerdor*/
 
+/*Etiqueta CV*/
 #CV{
     background-color: rgb(45, 233, 92);
     height: 30px;
@@ -159,7 +160,7 @@
     text-align: center;
     text-shadow: 0px 0px 2px rgb(0, 0, 0);
 }
-
+/*Etiqueta habilities*/
 #Habilidades{
     background-color: rgb(233, 230, 45);
     height: 30px;
@@ -178,6 +179,7 @@
     text-shadow: 0px 0px 1px rgb(0, 0, 0);
 }
 
+/*Etiqueta Proyecto*/
 #Proyectos{
     background-color: rgb(233, 67, 45);
     height: 30px;
@@ -188,10 +190,10 @@
     box-shadow: 0px 0px 2px;
     rotate: 1deg;
 }
-
 #pro{
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-family: Courier;
     text-align: center;
-    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+    text-shadow: 0px 0px 1px rgb(253, 253, 253);
 }
